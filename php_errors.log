@@ -1,0 +1,1 @@
+[18-Feb-2017 03:47:05 UTC] WordPress database error Table 'c9.wp_nls_subscribers' doesn't exist for query SELECT form_type FROM wp_nls_subscribers made by activate_plugin, do_action('activate_newsletter-subscription-form/newsletter-subscription-form.php'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, nls_callback_plugin_subscriber

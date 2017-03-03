@@ -4,7 +4,7 @@ Theme URI: https://brettola.github.io/
 Author: Brett Rayburn
 Author URI: https://brettola.github.io/
 Description: Description
-Version: 1.0.0
+Version: 4.7.2
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: therealm
@@ -54,6 +54,7 @@ html {
 
 body {
 	margin: 0;
+    overflow-x: hidden;
 }
 
 article,
@@ -894,3 +895,198 @@ object {
 	display: block;
 }
 
+.header {
+	text-align: center;
+}
+
+.header h1 {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.yaw {
+	text-align: center;	
+}
+
+.site-branding {
+	text-align: center;
+	background-image: url(/wp-content/uploads/2017/02/home-bg-slideshow1.jpg);
+	padding: 33vh 0;
+	margin: 0;
+	background-size: cover;
+	background-attachment: fixed;	
+}
+
+.site-branding p {
+	background-color: rgba(0, 0, 0, .5);
+	margin: 0 100px;
+}
+
+.site-title {
+	cursor: default;
+	pointer-events: none;
+}
+
+.site-title a {
+	text-decoration: none;
+	color: white;
+	font-size: 100px;
+}
+
+.site-description {
+	color: white;
+}
+
+#site-navigation .menu-toggle {
+    display: none;
+}
+
+.menu-navigation-container {
+    background-color: white;
+}
+
+.menu-navigation-container ul {
+    margin: 0;    
+    padding: 22px;
+    text-align: center;
+
+}
+
+.menu-navigation-container ul li {
+    display: inline-block;
+    padding: 0 20px;
+    margin: -30px 0;
+}
+
+.menu-navigation-container ul li a {
+    color: #858585;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.entry-header {
+    display: none;
+}
+
+#site-navigation {
+    display: none;
+}
+
+.entry-content {
+	margin-top: 0;
+}
+
+.panel-grid {
+	padding: 0 350px;
+}
+
+#pg-31-0 {
+    border-bottom: 1px solid #B2B2B2;    
+   	margin-bottom: 0 !important;
+}
+
+.naverino h3 {
+	margin: 0;
+}
+
+#pg-31-1 {
+	text-align: center;
+	background-color: rgb(240,240,240);
+	margin-bottom: 0 !important;
+	padding: 75px;
+}
+
+#pg-31-1 h3 {
+	font-size: 3vh;
+}
+
+#pg-31-1 p {
+	font-size: 2vh;
+}
+
+#pg-31-2 {
+	background-color: rgb(240,240,240);
+	padding-bottom: 75px;
+}
+
+#panel-31-2-0-0, #panel-31-2-1-0, #panel-31-2-2-0 {
+	background-color: white;
+}
+
+#pg-31-3 {
+	text-align: center;
+}
+
+#pg-31-4 img {
+	height: 300px !important;
+    max-width: 100%;
+    position: static;
+}
+
+#pg-31-3 h3 {
+	font-size: 3vh;
+}
+
+#pg-31-3 p {
+	font-size: 1.5vh;
+}
+
+#pg-31-7 {
+	text-align: center;
+}
+
+#pg-31-7 h3 {
+	font-size: 3vh;
+}
+
+#pg-31-7 p {
+	font-size: 1.5vh;
+}
+
+#pg-31-8 img, #pg-31-9 img, #pg-31-10 img {
+	height: 200px;
+    max-width: 100%;
+    position: static;
+}
+
+#pg-31-8 h3, #pg-31-9 h3, #pg-31-10 h3 {
+	font-size: 2vh;
+}
+
+#pg-31-11 {
+	text-align: center;
+	background-image: linear-gradient(to top, hsla(0, 0%, 0%, .75), hsla(0, 0%, 0%, .75)), url("/wp-content/uploads/2017/02/key1.JPG");
+	background-size: cover;
+	background-attachment: fixed;
+	margin-bottom: 0px !important;
+	padding: 100px;
+}
+
+.wdform_section span {
+	color: white !important;
+}
+
+#pg-31-11 h3 {
+	font-size: 3vh;
+	color: white;
+}
+
+#pg-31-11 p {
+	color: white;
+	font-size: 1.5vh;
+}
+
+#pg-31-12 {
+	background-color: #141414;
+}
+
+#pg-31-12 h3 {
+	color: white;
+}
+
+#pgc-31-12-0, #pgc-31-12-1, #pgc-31-12-2 {
+	padding: 75px 0;
+}
+
+#pg-31-13 h3 {
+	color: #515151;
+}

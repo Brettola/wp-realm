@@ -15,8 +15,8 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="stylesheet" href="/wp-content/themes/theRealm/style.css" type="text/css" />
 <?php wp_head(); ?>
+<link rel="stylesheet" type="text/css" href="css/yourStyles.css?<?php echo time(); ?>" />
 </head>
 
 <body <?php body_class(); ?>>
